@@ -1,0 +1,47 @@
+// !$*UTF8*$!
+{ archiveVersion = 1; classes = {}; objectVersion = 56; objects = {
+1D045E3B0C7D431EF8482631 = { isa = PBXFileReference; lastKnownFileType = image.icns; path = "QRCapture/Resources/AppIcon.icns"; sourceTree = "<group>"; };
+C2B53A5D33B26BFB25465D74 = { isa = PBXBuildFile; fileRef = 1D045E3B0C7D431EF8482631; };
+814F30EC51E1B954107360EA = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QRCapture/AppController.swift"; sourceTree = "<group>"; };
+6199CCE8F488C8E8BBA5708E = { isa = PBXBuildFile; fileRef = 814F30EC51E1B954107360EA; };
+491D4949FCE72E6D68D7B867 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QRCapture/Models/KeyboardShortcut.swift"; sourceTree = "<group>"; };
+876FF1CB8AC100B856C0ED4C = { isa = PBXBuildFile; fileRef = 491D4949FCE72E6D68D7B867; };
+DB03892296ED487E93C3B077 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QRCapture/Models/ScanRecord.swift"; sourceTree = "<group>"; };
+D1F19C64FA3452EABACB5BBE = { isa = PBXBuildFile; fileRef = DB03892296ED487E93C3B077; };
+D3C92086A597B75E18F93AD5 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QRCapture/QRCaptureApp.swift"; sourceTree = "<group>"; };
+E720C822D5CD1FD3FE4A4441 = { isa = PBXBuildFile; fileRef = D3C92086A597B75E18F93AD5; };
+6B54029FF653C39ABCE6B825 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QRCapture/Services/AppSettings.swift"; sourceTree = "<group>"; };
+F3ED078112A68EC8FFD0BFB8 = { isa = PBXBuildFile; fileRef = 6B54029FF653C39ABCE6B825; };
+59E09E98E9783CC8D60B9E4B = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QRCapture/Services/CaptureService.swift"; sourceTree = "<group>"; };
+DE5CB48AB14B2247C8271946 = { isa = PBXBuildFile; fileRef = 59E09E98E9783CC8D60B9E4B; };
+7BC08B6F54EF086C409E5DD3 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QRCapture/Services/HistoryStore.swift"; sourceTree = "<group>"; };
+63EEF64CE485414F77F1DD21 = { isa = PBXBuildFile; fileRef = 7BC08B6F54EF086C409E5DD3; };
+A66620AC1C7C1CA4D69015F0 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QRCapture/Services/HotKeyService.swift"; sourceTree = "<group>"; };
+45A57B6EC5184252CC421C3F = { isa = PBXBuildFile; fileRef = A66620AC1C7C1CA4D69015F0; };
+84B932A7992C48C5C603CAE4 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QRCapture/Services/QRDecoder.swift"; sourceTree = "<group>"; };
+748414E73E8EC562F75EEF65 = { isa = PBXBuildFile; fileRef = 84B932A7992C48C5C603CAE4; };
+28AAE78A6ED9DDE66A510545 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QRCapture/Views/HistoryView.swift"; sourceTree = "<group>"; };
+D53E4BA58AB7F3AC64FA19FD = { isa = PBXBuildFile; fileRef = 28AAE78A6ED9DDE66A510545; };
+0E5FF9AFB045E2464175615C = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QRCapture/Views/SelectionView.swift"; sourceTree = "<group>"; };
+177DC9EFB425AAE7697D0456 = { isa = PBXBuildFile; fileRef = 0E5FF9AFB045E2464175615C; };
+82A2D3480F872B9373913E63 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QRCapture/Views/SettingsView.swift"; sourceTree = "<group>"; };
+DAEA06DA82D34DED5F342B88 = { isa = PBXBuildFile; fileRef = 82A2D3480F872B9373913E63; };
+F676784A1DD6F975B39F4C45 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QRCapture/Views/ShortcutRecorder.swift"; sourceTree = "<group>"; };
+6796D26060C6654A97EC6F7B = { isa = PBXBuildFile; fileRef = F676784A1DD6F975B39F4C45; };
+7D1043473D55BFA90E8530D3 = { isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QR Capture.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+0112DAE3F84CB4DF5179BE01 = { isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = QRCapture/Info.plist; sourceTree = "<group>"; };
+E7B1BFA482251F04722B6837 = { isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QRCapture/QRCapture.entitlements; sourceTree = "<group>"; };
+FBDC4F23F93125BBEEAE800C = { isa = PBXGroup; children = (7D1043473D55BFA90E8530D3,); name = Products; sourceTree = "<group>"; };
+B28B7AF69320201D1CF206EB = { isa = PBXGroup; children = (1D045E3B0C7D431EF8482631, 814F30EC51E1B954107360EA, 491D4949FCE72E6D68D7B867, DB03892296ED487E93C3B077, D3C92086A597B75E18F93AD5, 6B54029FF653C39ABCE6B825, 59E09E98E9783CC8D60B9E4B, 7BC08B6F54EF086C409E5DD3, A66620AC1C7C1CA4D69015F0, 84B932A7992C48C5C603CAE4, 28AAE78A6ED9DDE66A510545, 0E5FF9AFB045E2464175615C, 82A2D3480F872B9373913E63, F676784A1DD6F975B39F4C45, 0112DAE3F84CB4DF5179BE01, E7B1BFA482251F04722B6837, FBDC4F23F93125BBEEAE800C,); sourceTree = "<group>"; };
+BCE16DD0260827ECF338C787 = { isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (6199CCE8F488C8E8BBA5708E, 876FF1CB8AC100B856C0ED4C, D1F19C64FA3452EABACB5BBE, E720C822D5CD1FD3FE4A4441, F3ED078112A68EC8FFD0BFB8, DE5CB48AB14B2247C8271946, 63EEF64CE485414F77F1DD21, 45A57B6EC5184252CC421C3F, 748414E73E8EC562F75EEF65, D53E4BA58AB7F3AC64FA19FD, 177DC9EFB425AAE7697D0456, DAEA06DA82D34DED5F342B88, 6796D26060C6654A97EC6F7B,); runOnlyForDeploymentPostprocessing = 0; };
+7561BFB015D8F536760CB671 = { isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+0189424A5A60FED329FA868E = { isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (C2B53A5D33B26BFB25465D74,); runOnlyForDeploymentPostprocessing = 0; };
+89E1FD6268CC0F221A2BE178 = { isa = XCBuildConfiguration; buildSettings = { CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; MACOSX_DEPLOYMENT_TARGET = 15.2; SDKROOT = macosx; SWIFT_VERSION = 6.0; SWIFT_STRICT_CONCURRENCY = complete; GCC_WARN_UNUSED_VARIABLE = YES; }; name = Debug; };
+7082CC0B6FC1282FCEABD07A = { isa = XCBuildConfiguration; buildSettings = { CODE_SIGN_ENTITLEMENTS = QRCapture/QRCapture.entitlements; CODE_SIGN_STYLE = Manual; CODE_SIGN_IDENTITY = "-"; COMBINE_HIDPI_IMAGES = YES; CURRENT_PROJECT_VERSION = 1; ENABLE_APP_SANDBOX = YES; ENABLE_HARDENED_RUNTIME = YES; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = QRCapture/Info.plist; MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.akon23.QRCapture; PRODUCT_NAME = "QR Capture"; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks"; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG; DEBUG_INFORMATION_FORMAT = dwarf; }; name = Debug; };
+E6DE6C99132752C914FEF632 = { isa = XCBuildConfiguration; buildSettings = { CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; MACOSX_DEPLOYMENT_TARGET = 15.2; SDKROOT = macosx; SWIFT_VERSION = 6.0; SWIFT_STRICT_CONCURRENCY = complete; GCC_WARN_UNUSED_VARIABLE = YES; }; name = Release; };
+639A7CA24D39909E713B47F7 = { isa = XCBuildConfiguration; buildSettings = { CODE_SIGN_ENTITLEMENTS = QRCapture/QRCapture.entitlements; CODE_SIGN_STYLE = Manual; CODE_SIGN_IDENTITY = "-"; COMBINE_HIDPI_IMAGES = YES; CURRENT_PROJECT_VERSION = 1; ENABLE_APP_SANDBOX = YES; ENABLE_HARDENED_RUNTIME = YES; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = QRCapture/Info.plist; MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.akon23.QRCapture; PRODUCT_NAME = "QR Capture"; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks"; CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO; SWIFT_COMPILATION_MODE = wholemodule; SWIFT_OPTIMIZATION_LEVEL = "-O"; DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym"; }; name = Release; };
+862894B703A6DEDF96A9DD6C = { isa = XCConfigurationList; buildConfigurations = (89E1FD6268CC0F221A2BE178, E6DE6C99132752C914FEF632,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+C57128001CE614BF8549D6BB = { isa = XCConfigurationList; buildConfigurations = (7082CC0B6FC1282FCEABD07A, 639A7CA24D39909E713B47F7,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+0E8A3AD980EC179856012B7E = { isa = PBXNativeTarget; buildConfigurationList = C57128001CE614BF8549D6BB; buildPhases = (BCE16DD0260827ECF338C787, 7561BFB015D8F536760CB671, 0189424A5A60FED329FA868E,); buildRules = (); dependencies = (); name = QRCapture; productName = "QR Capture"; productReference = 7D1043473D55BFA90E8530D3; productType = "com.apple.product-type.application"; };
+98F54143AB4E86B28C3AFEE0 = { isa = PBXProject; attributes = { BuildIndependentTargetsInParallel = YES; LastUpgradeCheck = 1620; }; buildConfigurationList = 862894B703A6DEDF96A9DD6C; compatibilityVersion = "Xcode 14.0"; developmentRegion = ru; hasScannedForEncodings = 0; knownRegions = (ru, Base,); mainGroup = B28B7AF69320201D1CF206EB; productRefGroup = FBDC4F23F93125BBEEAE800C; projectDirPath = ""; projectRoot = ""; targets = (0E8A3AD980EC179856012B7E,); };
+}; rootObject = 98F54143AB4E86B28C3AFEE0; }
