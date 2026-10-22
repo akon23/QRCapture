@@ -41,7 +41,7 @@ final class SelectionView: NSView {
             border.lineWidth = 1
             border.stroke()
         }
-        let help = "Выделите QR-код · Esc — отмена"
+        let help = "Выделите QR-код или штрихкод · Esc — отмена"
         let attributes: [NSAttributedString.Key: Any] = [
             .font: NSFont.systemFont(ofSize: 15, weight: .medium),
             .foregroundColor: NSColor.white,

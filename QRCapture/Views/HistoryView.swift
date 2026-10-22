@@ -52,7 +52,7 @@ struct HistoryView: View {
                 ContentUnavailableView(
                     search.isEmpty ? "История пуста" : "Ничего не найдено",
                     systemImage: search.isEmpty ? "qrcode" : "magnifyingglass",
-                    description: Text(search.isEmpty ? "Сканируйте QR-код — его текст появится здесь." : "Попробуйте другой запрос.")
+                    description: Text(search.isEmpty ? "Сканируйте QR-код или штрихкод — его текст появится здесь." : "Попробуйте другой запрос.")
                 )
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
             } else {
@@ -68,7 +68,7 @@ struct HistoryView: View {
                             Button { controller.copy(record.text) } label: { Image(systemName: "doc.on.doc") }
                                 .buttonStyle(.borderless)
                                 .help("Копировать исходный текст")
-                                .accessibilityLabel("Копировать текст QR-кода")
+                                .accessibilityLabel("Копировать содержимое кода")
                         }
                         .padding(.vertical, 5)
                         .tag(record.id)

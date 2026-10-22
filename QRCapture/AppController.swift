@@ -173,8 +173,8 @@ final class AppController: NSObject, ObservableObject {
     }
 
     private func updateScanIcon() {
-        scanItem?.button?.image = NSImage(systemSymbolName: "qrcode.viewfinder", accessibilityDescription: "Сканировать QR")
-        scanItem?.button?.toolTip = "Сканировать QR — \(settings.shortcut.displayName)"
+        scanItem?.button?.image = NSImage(systemSymbolName: "qrcode.viewfinder", accessibilityDescription: "Сканировать код")
+        scanItem?.button?.toolTip = "Сканировать код — \(settings.shortcut.displayName)"
     }
 
     private func showCopiedFeedback() {
